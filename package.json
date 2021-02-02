@@ -21,6 +21,12 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1"
   },
+  "ftp": {
+    "host": "process.env.FTP_HOST",
+    "user": "process.env.FTP_USER",
+    "password": "process.env.FTP_PASSWORD",
+    "secure": false
+  },
   "dependencies": {
     "axios": "^0.21.1",
     "body-parser": "^1.19.0",
