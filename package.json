@@ -32,7 +32,6 @@
     "md5": "^2.3.0",
     "mongoose": "^5.11.4",
     "multer": "^1.4.2",
-    "multer-ftp": "^1.2.0",
-    "vue-axios": "^3.2.0"
+    "multer-ftp": "^1.2.0"
   }
 }
