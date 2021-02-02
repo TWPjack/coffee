@@ -255,7 +255,7 @@ export const file = async (req, res) => {
   } else {
     axios({
       method: 'GET',
-      url: 'http://' + process.env.FTP_HOST + '/' + process.env.FTP_admin + '/' + req.params.image,
+      url: 'http://' + process.env.FTP_HOST + '/' + process.env.FTP_USER + '/' + req.params.image,
       responseType: 'stream'
     }).then(ress => {
       ress.data.pipe(res)
