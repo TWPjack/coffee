@@ -24,7 +24,7 @@ if (process.env.DEV === 'true') {
     // FTP 登入設定
     ftp: {
       host: process.env.FTP_HOST,
-      admin: process.env.FTP_admin,
+      admin: process.env.FTP_USER,
       password: process.env.FTP_PASSWORD,
       secure: false
     },
